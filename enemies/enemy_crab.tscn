@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://dm20ctruwmiba"]
+
+[node name="EnemyCrab" type="CharacterBody2D"]

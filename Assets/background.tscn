@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://88tlbtdk62lp"]
+
+[ext_resource type="Texture2D" uid="uid://dthivittx4a4r" path="res://warped-files/PNG/environment/layers/background.png" id="1_y4lxv"]
+[ext_resource type="Texture2D" uid="uid://bc8pi1a5ggpvl" path="res://warped-files/PNG/environment/layers/middleground-no-fungus.png" id="2_mrgk0"]
+
+[node name="background" type="Sprite2D"]
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+visibility_layer = 2
+scale = Vector2(10, 10)
+texture = ExtResource("1_y4lxv")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Sprite2D2"]
+visibility_layer = 2
+texture = ExtResource("2_mrgk0")
