@@ -68,7 +68,7 @@ func player_jump(delta:float):
 		velocity.x += direction * jump_horizontal * delta
 		
 func player_dodge(delta:float):
-	if Input.is_action_just_pressed("dash") and !is_dashing:
+	if Input.is_action_just_pressed("dash") and !is_dashing and dash_cooldown = 0:
 		dash_direction = Input.get_axis("move_left", "move_right")
 		if dash_direction != 0:
 			is_dashing = true
